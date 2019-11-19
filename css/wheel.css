@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.banner {
+    width: 96%;
+    /* height: 267px; */
+    margin: 7px auto;
+    position: relative;
+    overflow: hidden;
+}
+.banner .img {
+    width: 2695px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.banner .img li {
+    float: left;
+}
+.banner .img li img {
+    width: 100%;
+}
+/*小方块的样式*/
+.banner .num {
+    position: absolute;
+    left: 48%;
+    bottom: 5px;
+}
+.banner .num li {
+    width: 10px;
+    height: 10px;
+    float: left;
+    background:#bfc2c4;
+    margin-left: 12px;
+}
+.banner .num li:first-child{
+    margin-left:0;
+}
+.banner .num li.on {
+    height: 12px;
+    background: #ffffff;
+}
+/*两个箭头的样式*/
+.banner .btn {
+    position: absolute;
+    width: 22px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 39px;
+    top: 45%;
+    cursor: pointer;
+}
+.banner .btn_l {
+    left: 10px;
+}
+.banner .btn_r {
+    right: 10px;
+}

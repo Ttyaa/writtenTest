@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/wheel.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ttyaa</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <div class="header">
+        <div class="f_left">
+            <span class="red_bg">LOGO</span>
+        </div>
+        <div class="f_right">
+            <span class="iconfont icon-shezhi"></span>
+            <span class="iconfont icon-ziyuan"></span>
+            <span class="red_bg">Log Out</span>
+        </div>
+    </div>
+    <!-- header ending -->
+    <!-- main start -->
+    <div class="main">
+        <!-- overview start -->
+        <div class="overview_box">
+            <div class="overview">
+                <p>Audience Overview</p>
+                <p>Roseville, CA</p>
+            </div>
+            <div class="nav-shoe-wrap">
+                <div class="nav-wrap">
+                    <div class="mouse-follow-nav">
+                        <div id="nav_0" class="nav-list-w">
+                            <ul class="nav-list clearFix">
+                                <li class="nav-item">
+                                    <a href="javascript:;">DASHBOARD</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="javascript:;">PROJECTS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="javascript:;">CALENDAR</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="javascript:;">MAILBOX</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="javascript:;">SETTINGS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- overview ending -->
+        <!-- box2 start -->
+        <div class="box2">
+            <div class="banner_box">
+                <div class="banner">
+                    <ul class="img">
+                        <li><a href="#"><img alt="" src="https://via.placeholder.com/539x267/FFFF00/FFFFFF"></a></li>
+                        <li><a href="#"><img alt="" src="https://via.placeholder.com/539x267/0000FF/FFFFFF"></a></li>
+                        <li><a href="#"><img alt="" src="https://via.placeholder.com/539x267/008000/FFFFFF"></a></li>
+                    </ul>
+                    <ul class="num"></ul>
+                    <div class="btn btn_l">&lt;</div>
+                    <div class="btn btn_r">&gt;</div>
+                </div>
+            </div>
+
+            <div class="req_box">
+                <div class="title">
+                    <span>Support Requests</span>
+                    <button class="btn">View All</button>
+                </div>
+                <table class="table">
+                    <tr>
+                        <th>TIME</th>
+                        <th>USER NAME</th>
+                        <th>STATUS</th>
+                    </tr>
+                    <tr>
+                        <td>9:45pm</td>
+                        <td>info@design.com</td>
+                        <td><span>Solved</span></td>
+                    </tr>
+                    <tr>
+                        <td>9:45pm</td>
+                        <td>info@design.com</td>
+                        <td><span>Solved</span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- box2 ending -->
+        <!-- echarts1 start -->
+        <div id="echarts1" style="height: 300px;background-color: #ffffff;width: 88%;margin: 0 auto;padding-top: 30px;">
+        </div>
+        <!-- echarts1 ending -->
+        <!-- box3 start-->
+        <div class="box3">
+            <div id="echarts2"
+                style="height: 300px;background-color: #ffffff;width: 49%;padding-top: 30px;">
+            </div>
+            <div id="echarts3"
+                style="height: 300px;background-color: #ffffff;width: 49%;padding-top: 30px;">
+            </div>
+        </div>
+        <!-- box3 ending -->
+    </div>
+    <!-- main ending -->
+    <!-- footer start -->
+    <div class="footer">
+        <div class="foot_main">
+            <span class="red_bg">LOGO</span>
+            <ul>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">CHANNELS</a></li>
+                <li><a href="#">OVERVIEW</a></li>
+                <li><a href="#">TIMELINE</a></li>
+                <li><a href="#">SPORT</a></li>
+                <li><a href="#">CULTURE</a></li>
+                <li><a href="#">NATURE</a></li>
+                <li><a href="#">MUSIC</a></li>
+                <li><a href="#">WEATHER</a></li>
+                <li><a href="#">AUTOS</a></li>
+                <li><a href="#">LOCAL</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">FUTURE</a></li>
+                <li><a href="#">FOOD</a></li>
+                <li><a href="#">EARTH</a></li>
+                <li><a href="#">TV</a></li>
+                <li><a href="#">TRAVEL</a></li>
+                <li><a href="#">RADIO</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- footer ending -->
+    <script type="text/javascript" src="https://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="./js/banner.js"></script>
+    <script type="text/javascript" src="./js/nav.js"></script>
+    <script type="text/javascript" src="./js/echarts.js"></script>
+    <script type="text/javascript" src="./axios/api.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#nav_0').SlidingBlock();
+            getDataByMonth();
+        });
+    </script>
+</body>
+</html>

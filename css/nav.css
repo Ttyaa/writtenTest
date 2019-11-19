@@ -1,0 +1,41 @@
+.clearFix:after{content:"";visibility:hidden;height:0;display:block;clear:both;}
+.clearFix{display:inline-block;zoom:1;}
+.clearFix{display:block}
+
+li{list-style: none;}
+/*本例样式*/
+.mouse-follow-nav {
+    display: table;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+.nav-list-w {position: relative;}
+.nav-shoe-wrap .nav-list {
+    height: 28px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 99;
+}
+.mouse-follow-nav .nav-list li {
+    float: left;
+    width: auto;
+    height: 28px;
+    text-align: center;
+    position: relative;
+    margin-left: 40px;
+    z-index: 99;
+}
+
+.mouse-follow-nav .nav-list li a {
+    float: left;
+    text-decoration: none;
+    position: relative;
+    z-index: 999;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #262b2e;
+}
+/*滑块*/
+#nav_0  .sliding-block {background-color: #262b2e;}

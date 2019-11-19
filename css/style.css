@@ -1,0 +1,161 @@
+html,*,body {
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+.header {
+    overflow: hidden;
+    width: 88%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.red_bg {
+    display: inline-block;
+    background-color: #f92525;
+    font-family: Raleway-Bold;
+	font-size: 13px;
+	line-height: 40px;
+	letter-spacing: 0px;
+    color: #ffffff;
+    padding: 0 40px;
+}
+.header .f_left {
+    float: left;
+}
+.header .f_right {
+    float: right;
+}
+.header .f_right {
+    color: #262b2e;
+}
+.header .f_right .icon-ziyuan {
+    margin-right: 40px;
+}
+.header .f_right .icon-shezhi {
+    margin-right: 19px;
+}
+.main {
+    background-color: #f5f8f9;
+    padding-bottom:40px;
+}
+.footer .foot_main,
+.main .box3,
+.main .box2,
+.main .overview_box {
+    width: 88%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main .box2 {
+    margin-bottom: 15px;
+}
+.main .box3{
+    margin: 15px auto;
+}
+.footer .foot_main{
+    margin:0 auto;
+    padding: 81px 0;
+    align-items: flex-start;
+}
+.main .overview_box .overview p {
+	font-size: 30px;
+	line-height: 50px;
+	letter-spacing: 0px;
+	color: #262b2e;
+}
+.main .overview_box .overview p:last-child {
+	font-size: 15px;
+	opacity: 0.7;
+}
+.main .box2 .banner_box,
+.main .box2 .req_box {
+    width: 49%;
+    background-color: #ffffff;
+}
+.main .box2 .req_box .title {
+    height:110px;
+    padding: 0 35px;
+    border-bottom: 1px solid #efeff0;
+}
+.main .box2 .req_box .title span {
+    display: inline-block;
+	font-size: 18px;
+	line-height: 110px;
+	letter-spacing: 0px;
+    color: #262b2e;
+}
+.main .box2 .req_box .title button {
+    float: right;
+    border:1px solid #e9e9ea;
+    color: #262b2e;
+    padding: 0 15px;
+    background-color: #ffffff;
+    font-size: 13px;
+    line-height: 40px;
+    margin-top:35px;
+}
+.main .box2 .req_box .table {
+    padding: 0 35px;
+}
+.main .box2 .req_box .table th {
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #262b2e;
+}
+.main .box2 .req_box .table td,
+.main .box2 .req_box .table th
+{
+    text-align:left;
+    width: 20%;
+    line-height: 30px;
+}
+.main .box2 .req_box .table td:last-child,
+.main .box2 .req_box .table th:last-child {
+    text-align:right;
+}
+.main .box2 .req_box .table td:last-child span{
+    display: inline-block;
+    background-color: #5dd054;
+    border-radius: 2px;
+	font-size: 13px;
+	line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 10px;
+}
+/* footer start*/
+.footer {
+    background-color: #202124;
+}
+.footer .foot_main .logo{
+	padding: 0 40px;
+	height: 30px;
+    background-color: #f92525;
+    font-size: 12px;
+    line-height: 30px;
+}
+.footer .foot_main ul{
+    width: 82%;
+}
+.footer .foot_main ul li{
+    float: left;
+    font-size: 13px;
+    margin-bottom: 15px;
+	letter-spacing: 0px;
+    width: 25%;
+}
+.footer .foot_main ul li a {
+    color: #ffffff;
+    text-decoration:none;
+}
+.footer .foot_main ul li a:hover{
+    text-decoration:underline;
+}
+/* footer ending */
