@@ -2,10 +2,11 @@ $(function () {
     // 获取banner可视区域大小
     var banner_w = $(".banner").width()+1;
     console.log("banner_w:",banner_w);
-
+    // 图片大小自适应
     $('.banner .img li img').css('width',`${banner_w}px`);
     var banner_h = $('.banner .img li img').height();
     $('.banner').css('height',`${banner_h}px`);
+    // req_box高度
     var banner_box_h = $('.banner_box').height();
     $('.req_box').css('height',`${banner_box_h}px`);
 
